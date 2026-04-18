@@ -13,6 +13,7 @@ const server = http.createServer(app);
 
 const allowedOrigins = [
   "https://ui-guard-tracking.vercel.app",
+  "https://vercel-ui-guard-tracking-sigma.vercel.app/",
   "http://localhost:5173",
   "http://localhost:3000",
 ];
