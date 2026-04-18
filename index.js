@@ -58,7 +58,7 @@ app.use("/api/attendance", require("./routes/attendance.routes"));
 app.use("/api/location", require("./routes/location.routes"));
 
 app.get("/", (req, res) => {
-  res.send("API Running");
+  res.send("API Running by Sarfaroj");
 });
 
 const PORT = config.PORT || 5000;
